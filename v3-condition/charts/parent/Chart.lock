@@ -1,0 +1,6 @@
+dependencies:
+- name: chile
+  repository: file://../child
+  version: 0.1.0
+digest: sha256:5ceb094a68ccacdf9018727483a4084bdc86e37c65a4d3bc4922af19dec46eef
+generated: "2019-07-10T15:52:21.688539+08:00"
