@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ template "child.fullname" . }}-config
+  labels:
+{{ include "child.labels" . | indent 4 }}
+data:
+  foo: {{ .Values.bar | quote }}
